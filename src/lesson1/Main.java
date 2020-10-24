@@ -1,5 +1,7 @@
 package lesson1;
 
+import lesson1.fruits.Apple;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
@@ -8,6 +10,8 @@ public class Main {
         String[] arr = {"aaa", "bbb", "ccc"};
         ArrayList<String> one = arrayToList(arr);
         System.out.println(one);
+
+        BoxWithFruits<Apple> boxOne = new BoxWithFruits<>();
     }
 
     private static ArrayList<String> arrayToList(String[] arr) {
